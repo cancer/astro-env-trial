@@ -1,5 +1,9 @@
 ---
+import { getSecret } from "astro:env/server";
 
+export const prerender = true;
+const secret = getSecret("SECRET")
+//const secret = SECRET;
 ---
 
 <html lang="en">
@@ -12,5 +16,6 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		{secret}
 	</body>
 </html>

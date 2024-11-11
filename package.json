@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "astro-env-trial",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.10",
     "@astrojs/check": "^0.9.4",
+    "astro": "^4.16.10",
     "typescript": "^5.6.3"
-  }
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "11.2.0"
+  },
+  "description": "```sh npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
